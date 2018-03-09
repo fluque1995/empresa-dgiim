@@ -1,0 +1,170 @@
+\documentclass[11pt]{article}
+\renewcommand{\baselinestretch}{1.05}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{lipsum}
+
+\usepackage{amsmath,amsthm,verbatim,amssymb,amsfonts,amscd}
+\usepackage{graphicx, wrapfig}
+\usepackage{float}
+\usepackage{caption, subcaption}
+\usepackage{tkz-fct}
+\usetikzlibrary{babel}
+\usepackage{pgfplots}
+\usepackage{enumitem}
+\usepackage{multicol, vwcol}
+\usepackage{listingsutf8}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage[sorting=none]{biblatex}
+\bibliography{bibliography.bib}
+\definecolor{lightgray}{gray}{0.95}
+
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=false,     % window fit to page when opened
+    pdfstartview={FitW},    % fits the width of the page to the window
+    pdftitle={Ingeniería, empresa y sociedad - Entrega 1},    % title
+    pdfauthor={Francisco Luque, María del Mar Ruiz},     % author
+    pdfsubject={Ingeniería, Empresa y Sociedad},   % subject of the document
+    pdfnewwindow=true,      % links in new PDF window
+    colorlinks=true,        % false: boxed links; true: colored links
+    linkcolor=red,          % color of internal links (change box color with linkbordercolor)
+    citecolor=cyan,         % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=blue           % color of external links
+}
+
+\setlength{\parindent}{0pt}
+\topmargin0.0cm
+\headheight0.0cm
+\headsep0.0cm
+\oddsidemargin0.0cm
+\textheight23.0cm
+\textwidth16.5cm
+\footskip1.0cm
+\theoremstyle{plain}
+
+\newtheorem{theorem}{Teorema}
+\newtheorem{corollary}{Corolario}
+\newtheorem{lemma}{Lema}
+\newtheorem{proposition}{Proposición}
+\theoremstyle{definition}
+\newtheorem{definition}{Definición}
+\newtheorem{example}{Ejemplo}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\R}{\mathbb{R}}
+
+\begin{document}
+
+\title{Ingeniería, Empresa y Sociedad \\
+  DGIIM \\
+  \large Estudio demográfico del tejido empresarial en España: La
+  importancia de las grandes empresas}
+\author{Francisco Luque Sánchez\\
+  María del Mar Ruiz Martín}
+\maketitle
+
+En esta práctica realizaremos un pequeño análisis sobre la situación
+de las grandes empresas en España. Sustentaremos este estudio en cinco
+gráficos, que nos servirán para sacar algunas conclusiones al respecto.
+
+\section{Gráfica 1: Evolución del número de grandes empresas en
+  España}
+
+La primera gráfica que mostraremos resumirá la información sobre la
+distribución de las grandes empresas a lo largo de los últimos años.
+La gráfica en cuestión es la siguiente:
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=.8\textwidth]{graficos/barras_evolucion_anual}
+  \caption{Evolución del tamaño de las empresas en España}
+\end{figure}
+
+Lo más relevante que se puede comentar al principio es la disminución
+total del número de grandes empresas desde 2008. Probablemente debido
+a la crisis, entre el año 2008 y el año 2009 se produce una
+disminución en el número de grandes empresas de más de 1000. Esta
+disminución se mantiene, aunque de forma menos pronunciada, hasta
+2012, cuando se pasan de unas 6500 empresas (2008) a menos de 5000
+(2012). A partir de ese año empieza a verse una ligera recuperación en
+el número total de empresas, pero
+no se han conseguido alcanzar los niveles de hace 10 años.\\
+
+Otro comportamiento a tener en cuenta es que esta disminución ha
+afectado principalmente a las empresas de menor tamaño dentro de las
+grandes empresas. Mientras que las empresas de más de 5000
+trabajadores apenas se han visto afectadas (de hecho, en el periodo de
+9 años que se contempla, ha aumentado el número de éstas en 1), así
+como las que tienen enter 500 y 5000 trabajadores, las que tienen
+entre 250 y 499 sí que se han visto fuertemente afectadas. Esto nos
+lleva a concluir que la crisis económica en la que se ha visto sumido
+el país ha afectado con mayor fuerza a empresas de pequeño tamaño,
+mientras que las más grandes han salido mejor paradas.
+
+\section{Gráfica 2: Distribución de las grandes empresas por comunidad
+  autónoma}
+
+La siguiente gráfica que comentaremos es un diagrama de sectores que
+nos indica el número de empresas que hay en cada comunidad autónoma:
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{graficos/sectores_comunidades}
+  \caption{Distribución de las grandes empresas en el territorio
+    español}
+\end{figure}
+
+Como era esperable, más de un tercio de las grandes empresas de
+nuestro país tienen su sede en Madrid. Además, entre Madrid y
+Barcelona aglutinan más de la mitad de las mismas. Después, nos
+aparece Andalucía (comunidad más grande de España), la Comunidad
+Valenciana y el País Vasco. Coinciden las comunidades autónomas más
+pobladas con las que más empresas poseen.\\
+
+En el otro extremo tenemos a La Rioja, Extremadura y Cantabria, que
+han sido históricamente las comunidades autónomas menos pobladas y
+con menos riqueza del país.
+
+\section{Gráfica 3: Filiales de empresas españolas en el exterior}
+
+Ahora vamos a comentar la información referente a empresas filiales de
+empresas españolas en el resto del mundo. Separaremos dicha
+información en los siguientes cinco grupos:
+
+\begin{itemize}
+\item Zona Euro
+\item Resto de la Unión Europea
+\item Resto de Europa
+\item América
+\item Resto del mundo
+\end{itemize}
+
+La gráfica en cuestión es la siguiente:
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{graficos/sectores_filiales}
+  \caption{Distribución de filiales de las empresas españolas en el
+    extranjero}
+\end{figure}
+
+En la gráfica anterior recogemos, de dentro hacia fuera, información
+sobre el número de filiales en cada zona mencionada, el número de
+personas ocupadas en dichas empresas, y el volumen de negocio que
+generan las mismas. Podemos observar que, si ponemos atención a la
+proporción volumen de negocio entre número de empresas, las que tienen
+un valor más alto son el resto de la Unión Europea (esto engloba
+principalmente a Suiza, al Reino Unido, y a los países escandinavos) y
+América. Estas son las zonas más ricas del planeta, por lo que tiene
+sentido que se produzca este fenómeno.
+\end{document}

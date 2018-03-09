@@ -1,0 +1,4 @@
+\select@language {spanish}
+\beamer@sectionintoc {1}{Grandes empresas en Espa\IeC {\~n}a}{2}{0}{1}
+\beamer@sectionintoc {2}{Estad\IeC {\'\i }sticas de empresas filiales en el extranjero}{5}{0}{2}
+\beamer@sectionintoc {3}{Productividad}{7}{0}{3}
