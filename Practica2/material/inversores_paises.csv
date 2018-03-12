@@ -1,37 +1,255 @@
-CODE, COUNTRIES, Investors
-ESP, Spain, 76
-USA, United States, 120
-GBR, United Kingdom, 57
-FRA, France, 67
-NOR, Norway, 4
-GER, Germany, 59
-NLD, Netherlands, 8
-CAN, Canada, 21
-CHE, Switzerland, 43
-IRE, Ireland, 6
-BEL, Italy, 22
-BEL, Belgium, 8
-LUX, Luxembourg, 23
-FIN, Finland, 4
-SWE, Sweden, 15
-SGP, Singapore, 2
-DNK, Denmark, 7
-MEX, Mexico, 3
-AUS, Australia, 7
-AUT, Austria, 15
-JPN, Japan, 10
-PRT, Portugal, 7
-GGY, Guernsey, 1
-LIE, Liechtenstein, 5
-ZAF, South Africa, 2
-HKG, Hong Kong, 6
-TWN, Taiwan, 8
-KOR, South Korea, 4
-GRC, Greece, 2
-IND, India, 1
-UKR, Ukraine, 1
-POL, Poland, 2
-CZE, Czech Republic, 1
-CHL, Chile, 1
-AND, Andorra, 1
-BRA, Brazil, 1
+CODE,COUNTRIES,Investors
+ABW,Aruba,0
+AFG,Afghanistan,0
+AGO,Angola,0
+AIA,Anguilla,0
+ALA,Åland Islands,0
+ALB,Albania,0
+AND,Andorra,1
+ARE,United Arab Emirates,0
+ARG,Argentina,0
+ARM,Armenia,0
+ASM,American Samoa,0
+ATA,Antarctica,0
+ATF,French Southern Territories,0
+ATG,Antigua and Barbuda,0
+AUS,Australia,7
+AUT,Austria,15
+AZE,Azerbaijan,0
+BDI,Burundi,0
+BEL,Belgium,8
+ITA,Italy,22
+BEN,Benin,0
+BES,Bonaire,0
+BFA,Burkina Faso,0
+BGD,Bangladesh,0
+BGR,Bulgaria,0
+BHR,Bahrain,0
+BHS,Bahamas,0
+BIH,Bosnia and Herzegovina,0
+BLM,Saint Barthélemy,0
+BLR,Belarus,0
+BLZ,Belize,0
+BMU,Bermuda,0
+BOL,Bolivia,0
+BRA,Brazil,1
+BRB,Barbados,0
+BRN,Brunei Darussalam,0
+BTN,Bhutan,0
+BVT,Bouvet Island,0
+BWA,Botswana,0
+CAF,Central African Republic,0
+CAN,Canada,21
+CCK,Cocos (Keeling) Islands,0
+CHE,Switzerland,43
+CHL,Chile,1
+CHN,China,0
+CIV,Côte d'Ivoire,0
+CMR,Cameroon,0
+COD,the Democratic Republic of the Congo,0
+COG,Congo,0
+COK,Cook Islands,0
+COL,Colombia,0
+COM,Comoros,0
+CPV,Cabo Verde,0
+CRI,Costa Rica,0
+CUB,Cuba,0
+CUW,Curaçao,0
+CXR,Christmas Island,0
+CYM,Cayman Islands,0
+CYP,Cyprus,0
+CZE,Czech Republic,1
+DEU,Germany,0
+DJI,Djibouti,0
+DMA,Dominica,0
+DNK,Denmark,7
+DOM,Dominican Republic,0
+DZA,Algeria,0
+ECU,Ecuador,0
+EGY,Egypt,0
+ERI,Eritrea,0
+ESH,Western Sahara,0
+ESP,Spain,76
+EST,Estonia,0
+ETH,Ethiopia,0
+FIN,Finland,4
+FJI,Fiji,0
+FLK,Falkland Islands (Malvinas),0
+FRA,France,67
+FRO,Faroe Islands,0
+FSM,Micronesia,0
+GAB,Gabon,0
+GBR,United Kingdom,57
+GEO,Georgia,0
+GER,Germany,59
+GGY,Guernsey,1
+GHA,Ghana,0
+GIB,Gibraltar,0
+GIN,Guinea,0
+GLP,Guadeloupe,0
+GMB,Gambia,0
+GNB,Guinea-Bissau,0
+GNQ,Equatorial Guinea,0
+GRC,Greece,2
+GRD,Grenada,0
+GRL,Greenland,0
+GTM,Guatemala,0
+GUF,French Guiana,0
+GUM,Guam,0
+GUY,Guyana,0
+HKG,Hong Kong,6
+HMD,Heard Island and McDonald Islands,0
+HND,Honduras,0
+HRV,Croatia,0
+HTI,Haiti,0
+HUN,Hungary,0
+IDN,Indonesia,0
+IMN,Isle of Man,0
+IND,India,1
+IOT,British Indian Ocean Territory,0
+IRL,Ireland,6
+IRN,Iran,0
+IRQ,Iraq,0
+ISL,Iceland,0
+ISR,Israel,0
+ITA,Italy,0
+JAM,Jamaica,0
+JEY,Jersey,0
+JOR,Jordan,0
+JPN,Japan,0
+JPN,Japan,10
+KAZ,Kazakhstan,0
+KEN,Kenya,0
+KGZ,Kyrgyzstan,0
+KHM,Cambodia,0
+KIR,Kiribati,0
+KNA,Saint Kitts and Nevis,0
+KOR,South Korea,4
+KWT,Kuwait,0
+LAO,Lao People's Democratic Republic,0
+LBN,Lebanon,0
+LBR,Liberia,0
+LBY,Libya,0
+LCA,Saint Lucia,0
+LIE,Liechtenstein,5
+LKA,Sri Lanka,0
+LSO,Lesotho,0
+LTU,Lithuania,0
+LUX,Luxembourg,0
+LUX,Luxembourg,23
+LVA,Latvia,0
+MAC,Macao,0
+MAF,Saint Martin (French part),0
+MAR,Morocco,0
+MCO,Monaco,0
+MDA,Moldova,0
+MDG,Madagascar,0
+MDV,Maldives,0
+MEX,Mexico,3
+MHL,Marshall Islands,0
+MKD,Macedonia,0
+MLI,Mali,0
+MLT,Malta,0
+MMR,Myanmar,0
+MNE,Montenegro,0
+MNG,Mongolia,0
+MNP,Northern Mariana Islands,0
+MOZ,Mozambique,0
+MRT,Mauritania,0
+MSR,Montserrat,0
+MTQ,Martinique,0
+MUS,Mauritius,0
+MWI,Malawi,0
+MYS,Malaysia,0
+MYT,Mayotte,0
+NAM,Namibia,0
+NCL,New Caledonia,0
+NER,Niger,0
+NFK,Norfolk Island,0
+NGA,Nigeria,0
+NIC,Nicaragua,0
+NIU,Niue,0
+NLD,Netherlands,8
+NOR,Norway,4
+NPL,Nepal,0
+NRU,Nauru,0
+NZL,New Zealand,0
+OMN,Oman,0
+PAK,Pakistan,0
+PAN,Panama,0
+PCN,Pitcairn,0
+PER,Peru,0
+PHL,Philippines,0
+PLW,Palau,0
+PNG,Papua New Guinea,0
+POL,Poland,2
+PRI,Puerto Rico,0
+PRK,Democratic People's Republic of Korea,0
+PRT,Portugal,7
+PRY,Paraguay,0
+PSE,Palestine,0
+PYF,French Polynesia,0
+QAT,Qatar,0
+REU,Réunion,0
+ROU,Romania,0
+RUS,Russian Federation,0
+RWA,Rwanda,0
+SAU,Saudi Arabia,0
+SDN,Sudan,0
+SEN,Senegal,0
+SGP,Singapore,2
+SGS,South Georgia and the South Sandwich Islands,0
+SHN,Saint Helena,0
+SJM,Svalbard and Jan Mayen,0
+SLB,Solomon Islands,0
+SLE,Sierra Leone,0
+SLV,El Salvador,0
+SMR,San Marino,0
+SOM,Somalia,0
+SPM,Saint Pierre and Miquelon,0
+SRB,Serbia,0
+SSD,South Sudan,0
+STP,Sao Tome and Principe,0
+SUR,Suriname,0
+SVK,Slovakia,0
+SVN,Slovenia,0
+SWE,Sweden,0
+SWE,Sweden,15
+SWZ,Swaziland,0
+SXM,Sint Maarten (Dutch part),0
+SYC,Seychelles,0
+SYR,Syrian Arab Republic,0
+TCA,Turks and Caicos Islands,0
+TCD,Chad,0
+TGO,Togo,0
+THA,Thailand,0
+TJK,Tajikistan,0
+TKL,Tokelau,0
+TKM,Turkmenistan,0
+TLS,Timor-Leste,0
+TON,Tonga,0
+TTO,Trinidad and Tobago,0
+TUN,Tunisia,0
+TUR,Turkey,0
+TUV,Tuvalu,0
+TWN,Taiwan,8
+TZA,Tanzania,0
+UGA,Uganda,0
+UKR,Ukraine,1
+UMI,United States Minor Outlying Islands,0
+URY,Uruguay,0
+USA,United States,120
+UZB,Uzbekistan,0
+VAT,Holy See,0
+VCT,Saint Vincent and the Grenadines,0
+VEN,Venezuela,0
+VGB,Virgin Islands,0
+VIR,Virgin Islands,0
+VNM,Viet Nam,0
+VUT,Vanuatu,0
+WLF,Wallis and Futuna,0
+WSM,Samoa,0
+YEM,Yemen,0
+ZAF,South Africa,2
+ZMB,Zambia,0
+ZWE,Zimbabwe,0
