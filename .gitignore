@@ -26,3 +26,6 @@ auto/
 
 ## EMACS autosaved files
 *~
+
+## LOCK files for OpenOffice
+.~lock.*
