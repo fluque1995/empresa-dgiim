@@ -117,11 +117,17 @@ y calcular el resultado de la empresa.\\
   \caption{Balance de situación}
 \end{table}
 
+
+Para calcular el resultado del ejercicio se ha igualado el total del
+activo con el total del pasivo, siendo estos de 1.479.000 €. Ha 
+resultado entonces un resultado del ejercicio de 550000€.\\
+
 \textbf{Ejercicio 1 b:} Calcular y comentar el Fondo de Maniobra.\\
 
 El fondo de maniobra de la empresa de define como el activo corriente
 menos el pasivo corriente. En este caso, el fondo de maniobra vale
-$557000 - 110000 = 447000$ €, lo cual es positivo para la empresa, ya
+$557000 - 110000 = 447000$ €. El hecho de que este valor sea mayor que 
+0 es positivo para la empresa, ya
 que reduce el riesgo de tener que afrontar pagos a corto plazo y no
 tener liquidez para responder a los mismos.\\
 
@@ -129,30 +135,35 @@ tener liquidez para responder a los mismos.\\
 furgonetas. Estimar, según las tablas de amortización, la cuota máxima
 y la cuota mínima a emplear.\\
 
+Para resolver este ejercicio utilizaremos los datos de coeficiente 
+lineal máximo y periodo de años máximo proporcionados por la Agencia
+Tributaria. En concreto los correspondientes para autocamiones, que serán
+del 20\% y de 10 años respectivamente.\\
+
 Tenemos dos furgonetas, a las que van destinados 15000 € para cada una.
 La cuota máxima es por tanto $15000 * 0.2 = 3000$ € por furgoneta al
-año. La mínima, por otro lado, es de $\frac{15000}{10} = 1500$ €.
-El valor de la tabla con el que se ha trabajado es el de autocamiones.\\
+año. La mínima, por otro lado, es de $\frac{15000}{10} = 1500$ €.\\
 
 \textbf{Ejercicio 2 a:} Calcular el beneficio antes de intereses e
 impuestos (BAIT), el beneficio antes de impuestos (BAT) y el beneficio
 neto (BN).\\
 
 Comenzamos calculando el BAIT. Dicho valor se calcula como Ingresos -
-Coste de los bienes - Gastos Operativos. Tenemos entonces:
+Coste de los bienes - Gastos. Tenemos entonces:
 
 \[
   (33 + 47 + 55 + 38) - (22 + 24 + 28 + 25) - 44 = 173 - 99 - 44 = 30
   \text{ millones}
 \]
 
-El BAT en este caso coincide con el BAIT, por lo que son también 30
+Puesto que no hay ningún dato sobre intereses, el BAT en este caso 
+coincide con el BAIT, por lo que son también 30
 millones.  El BN, dado que tenemos un tipo impositivo sobre los
 beneficios del $35 \%$, tenemos que es $30 * 0.65 = 19.50$ millones.\\
 
 \textbf{Ejercicio 2 b:} Calcular los $Q_j$ y el FNC total.\\
 
-Pasamos a calcular los $Q_j$:
+Recordamos que $Q_j$ = Ingresos - Gastos.  Pasamos a calcularlos:
 
 \[
   Q_1 = 33 - 22 = 11 \text{ millones}
@@ -186,6 +197,12 @@ Calculamos primero el VAN:
 Y calculamos ahora el TIR, que utilizando la funcionalidad de excel
 que nos lo permite nos arroja un valor de $r = 23.39 \%$.\\
 
+Encontramos que el valor del VAN ha sido superior a cero, por lo que en 
+principio se aceptaría la inversión. Apoyando esta tésis, encontramos que 
+el valor obtenido para el TIR es superior a la tasa de actualización, siendo
+de hecho más de el doble, por lo que de nuevo, en virtud de este estimador,
+procederíamos a aceptar la inversión.
+
 \textbf{Ejercicio 3 a:} Calcular el resultado del ejercicio y el
 capital social de la empresa.\\
 
@@ -209,7 +226,7 @@ que tenemos son los siguientes:
 
 El resultado del ejercicio es, entonces, la diferencia entre los
 ingresos y los gastos generados por la empresa. En este caso,
-ascienden a $65000 - 56100 = 8900 €$.\\
+ascienden a $65000 - 56100 = 8900 $€.\\
 
 De estos 8900 €, hay que destinar un 25 \% a impuestos, lo cual
 asciende a 2225 €. El capital social de la empresa nos aparecerá en el
@@ -231,9 +248,9 @@ empresa.\\
     \multicolumn{2}{c}{Inmovilizado intangible} & 275 € & Capital social\\
     \cmidrule(r){1-2}
     2000 € & Aplicaciones informática & 500 € & Reserva legal \\
-    500 € & Am. Acum. Inm. Intangible & 8900 € & Resultado del ejercicio \\
+    -500 € & Am. Acum. Inm. Intangible & 8900 € & Resultado del ejercicio \\
     \cmidrule(r){1-2}
-    \multicolumn{2}{c}{Inmovilizado material} & -8000 € & Resultado del ejercicio anterior \\
+    \multicolumn{2}{c}{Inmovilizado material} & -2000 € & Resultado del ejercicio anterior \\
     \cmidrule(r){1-2} \cmidrule(l){3-4}
     3000 € & Equipos informáticos & \multicolumn{2}{c}{Pasivo no corriente} \\
     \cmidrule(l){3-4}
@@ -241,16 +258,17 @@ empresa.\\
     \cmidrule(l){3-4}
     5000 € & Mobiliario & \multicolumn{2}{c}{Pasivo corriente} \\
     \cmidrule(l){3-4}
-    -3000 € & Am. Acum. Inm. Material & 3000 € & Acreedores \\
+    3000 € & Bancos L/P & 3000 € & Acreedores \\
+    -3000 € & Am. Acum. Inm. Material & 2500 € & Proveedores \\
     \cmidrule(r){1-2}
-    \multicolumn{2}{c}{Activo corriente} & 2500 € & Proveedores \\
+    \multicolumn{2}{c}{Activo corriente} & &  \\
     \cmidrule(r){1-2}
-    6000 € & Existencias & 11000 € & Hacienda pública \\
+    6000 € & Existencias &  &  \\
     2500 € & Clientes & & \\
-    3000 € & Bancos L/P & & \\
+    1500 € & Deudores & & \\
     35675 € & Caja & & \\
     \midrule
-    65275 € & Total activo & 65275 € & Total pasivo \\
+    65175 € & Total activo & 65175 € & Total pasivo \\
     \bottomrule
   \end{tabular}
   \caption{Balance de situación}
@@ -262,6 +280,12 @@ El fondo de maniobra de la empresa, como ya dijimos antes, es el
 activo corriente menos el pasivo corriente, valor que en este caso
 asciende a $45675 - 5500 = 40175$ €, lo cual es algo muy positivo para
 la empresa, ya que le hace tener un riesgo muy bajo a la hora de tener
-que enfrentar deudas a corto plazo.
+que enfrentar deudas a corto plazo.\\
+
+De hecho, podemos notar que yan solo el dinero de la caja ya supera al 
+total del pasivo corriente, garantía de que no habrá problemas de liquidez,
+puesto que aunque se deban realizar todos los pagos a corto plazo antes de 
+vender ninguna existencia o cobrar a clientes o deudores la empresa
+podrá responder con el dinero de la caja.
 
 \end{document}
